@@ -380,9 +380,6 @@
 					<div class="sidebar2 section" id="sidebar2">
 						<div class="widget PopularPosts" id="PopularPosts1">
 							<h2>Playing Now</h2><!--remove-->
-							<button>
-								click
-							</button>
 							<ul class="nwPlyngLoc">
 								<li class="nwPlyngLcl"><img src="./static/img/iconmonstr-home-4-icon-24.png" />
 								</li>
