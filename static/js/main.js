@@ -7,7 +7,7 @@
 			isAOLClient = navigator.userAgent.toLowerCase().indexOf('aol') !== -1 ? 1 : 0;
 			
 		$.multiAuth({
-			devId: 'ao1fW_i9ThgtiBSR',
+			devId: 'ao1ZIbZdrltfBdJX',
 			getTokenCallback: function(json){
 				var $elem = $(this.authLink),
 					response = json.response,

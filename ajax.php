@@ -78,6 +78,7 @@ switch($_GET["action"]){
 	break;
 	
 	case "get_playlist":
+		$userpage = $_GET["userpage"];
 		$playlist = $redis->lrange("username:".$userpage.":playlist",0,100);
 		$vids = "";
 		foreach ($playlist as $key => $value){
@@ -86,7 +87,9 @@ switch($_GET["action"]){
 			else
 				$vids = $vids . ',' . $value;
 		}
-		return $vids;
+		echo '{"videos" : "'.$vids.'"}';
+		
+		return;
 	break;
 }
 

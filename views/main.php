@@ -34,13 +34,13 @@
 		?>
 		<script>
 		function setPlayer(e){
-			console.log(e);
+			//console.log(e);
 		}
 		function play(id){
  
 		 j = document.createElement("script");
 		 j.type = "text/javascript";
-		 j.src = 'http://pshared.5min.com/Scripts/PlayerSeed.js?sid=281&width=720&height=500&playList='+id+'&autoStart=true&onVideoDataLoaded=setPlayer';
+		 j.src = 'http://pshared.5min.com/Scripts/PlayerSeed.js?sid=281&width=650&height=500&playList='+id+'&autoStart=true&onVideoDataLoaded=setPlayer';
 		 div = document.getElementById("video-container");
 		 $(div).css({"width":"720px","height":"500px"})
 		 div.innerHTML = "";
@@ -49,15 +49,15 @@
 		 
 		 function playlist(id){
  			$.getJSON('http://169.254.11.15/~yousuffqa/ajax.php?action=add_playlist&id='+id,function(json){
- 				console.log(json);
+ 				//console.log(json);
  			});
 		 }
 		function fav(id,channel){
 			channel = $.trim(channel);
 			$.getJSON('http://169.254.11.15/~yousuffqa/ajax.php?action=add_fav&channel='+channel+'&id='+id,function(json){
-				console.log(json);
+				//console.log(json);
 			});
-			 refresh_fav();
+			 
 		}
 		function search_submit(){
 			var q = $("input[name^='query']").val();
@@ -67,7 +67,7 @@
 				for(i=0;i<json.items.length;i++){
 					var $id = json.items[i].id;
 					var $channel = json.items[i].channel;
-					$div = $div + '<div class="item" video-id="'+$id+'"video-tag="'+$channel+'" style="float:left;margin:10px;width:100px;"><img style="float:left" src='+json.items[i].image+' width="100px" height="100px" onclick="play('+json.items[i].id+')"/><div class="fav-icons" style="float:left;"><i class="fa fa-heart" onclick="fav('+$id+',\''+$channel+'\')"></i><i class="fa fa-caret-square-o-right"></i><i class="fa fa-eye"></i></div></div>';
+					$div = $div + '<div class="item" video-id="'+$id+'"video-tag="'+$channel+'" style="float:left;margin:10px;width:100px;"><img style="float:left" src='+json.items[i].image+' width="100px" height="100px" onclick="play('+json.items[i].id+')"/><div class="fav-icons" style="float:left;"><i class="fa fa-heart" onclick="fav('+$id+',\''+$channel+'\')"></i><i class="fa fa-caret-square-o-right" onclick="playlist('+$id+')"></i><i class="fa fa-eye"></i></div></div>';
 				}
 				$div = $div + '<div class="clear"></div>';
 				$("#search-results").empty();
@@ -146,14 +146,14 @@
 						<div class="list">
 							<div id="tabs">
 								<ul>
-									<li>
+									<li onclick="refresh_fav();">
 										<a href="#tabs-1">Favorites</a>
 									</li>
 									<li>
 										<a href="#tabs-2">Search</a>
 									</li>
-									<li>
-										<a href="#tabs-3">Playlist</a>
+									<li onclick="get_playlist();">
+										<a href="#tabs-3" >Playlist</a>
 									</li>
 									<li>
 										<a href="#tabs-4">Message Boards</a>
@@ -250,13 +250,34 @@
 									</div>
 								</div>
 								<div id="tabs-5">
-
+									<div class="item" video-id="518034830" video-tag="News" style="float:left;margin:10px;width:100px;"><img style="float:left" src="http://pthumbnails.5min.com/10360697/518034830_c.jpg" width="100px" height="100px" onclick="play(518034830)"><div class="fav-icons" style="float:left;"><i class="fa fa-heart" onclick="fav(518034830,'News')"></i><i class="fa fa-caret-square-o-right" onclick="playlist(518034830)"></i><i class="fa fa-eye"></i></div></div><div class="item" video-id="518034799" video-tag="News" style="float:left;margin:10px;width:100px;"><img style="float:left" src="http://pthumbnails.5min.com/10360696/518034799_c.jpg" width="100px" height="100px" onclick="play(518034799)"><div class="fav-icons" style="float:left;"><i class="fa fa-heart" onclick="fav(518034799,'News')"></i><i class="fa fa-caret-square-o-right" onclick="playlist(518034799)"></i><i class="fa fa-eye"></i></div></div><div class="item" video-id="518034821" video-tag="News" style="float:left;margin:10px;width:100px;"><img style="float:left" src="http://pthumbnails.5min.com/10360697/518034821_c.jpg" width="100px" height="100px" onclick="play(518034821)"><div class="fav-icons" style="float:left;"><i class="fa fa-heart" onclick="fav(518034821,'News')"></i><i class="fa fa-caret-square-o-right" onclick="playlist(518034821)"></i><i class="fa fa-eye"></i></div></div><div class="item" video-id="518034822" video-tag="News" style="float:left;margin:10px;width:100px;"><img style="float:left" src="http://pthumbnails.5min.com/10360697/518034822_2.jpg" width="100px" height="100px" onclick="play(518034822)"><div class="fav-icons" style="float:left;"><i class="fa fa-heart" onclick="fav(518034822,'News')"></i><i class="fa fa-caret-square-o-right" onclick="playlist(518034822)"></i><i class="fa fa-eye"></i></div></div><div class="clear"></div>
 								</div>
 							</div>
 							<script>
-		   			     $(function() {
+		   			     
 		   			       $( "#tabs" ).tabs();
 		   				   search_submit();
+						   
+						   function get_playlist(){
+							   $.getJSON("http://169.254.11.15/~yousuffqa/ajax.php?action=get_playlist&userpage=admin", function( data ) {
+								   var $vid = data.videos;
+								   play($vid);
+								   //console.log($vid);
+								   $.getJSON("http://api.5min.com/video/list/info.json?video_ids="+$vid,function(json){
+					 				$div = "";
+					 				for(i=0;i<json.items.length;i++){
+					 					var $id = json.items[i].id;
+					 					var $channel = json.items[i].channel;
+					 					$div = $div + '<div class="item" video-id="'+$id+'"video-tag="'+$channel+'" style="float:left;margin:10px;width:100px;"><img style="float:left" src='+json.items[i].image+' width="100px" height="100px" onclick="play('+json.items[i].id+')"/><div class="fav-icons" style="float:left;"><i class="fa fa-heart" onclick="fav('+$id+',\''+$channel+'\')"></i><i class="fa fa-caret-square-o-right" onclick="playlist('+$id+')"></i><i class="fa fa-eye"></i></div></div>';
+					 				}
+					 				$div = $div + '<div class="clear"></div>';
+					 				$("#tabs-3").empty();
+					 				$("#tabs-3").append($div);
+								   });
+							   });
+						   	
+						   }
+						   get_playlist();
 						   function refresh_fav(){
 						   
 						   $.get("http://169.254.11.15/~yousuffqa/ajax.php?action=get_fav&userpage=admin", function( data ) {
@@ -264,7 +285,7 @@
 							
 							 $(".nav-items").each(function(i,v){
 								 var $vid = $(this).attr("vid-load");
-								 console.log($vid);
+								 //console.log($vid);
 			  					 $(this).click(function(e){
 									 e.preventDefault();
 						 			 var $vid = $(this).attr("vid-load");
@@ -275,7 +296,7 @@
 						 				for(i=0;i<json.items.length;i++){
 						 					var $id = json.items[i].id;
 						 					var $channel = json.items[i].channel;
-						 					$div = $div + '<div class="item" video-id="'+$id+'"video-tag="'+$channel+'" style="float:left;margin:10px;width:100px;"><img style="float:left" src='+json.items[i].image+' width="100px" height="100px" onclick="play('+json.items[i].id+')"/><div class="fav-icons" style="float:left;"><i class="fa fa-heart" onclick="fav('+$id+',\''+$channel+'\')"></i><i class="fa fa-caret-square-o-right"></i><i class="fa fa-eye"></i></div></div>';
+						 					$div = $div + '<div class="item" video-id="'+$id+'"video-tag="'+$channel+'" style="float:left;margin:10px;width:100px;"><img style="float:left" src='+json.items[i].image+' width="100px" height="100px" onclick="play('+json.items[i].id+')"/><div class="fav-icons" style="float:left;"><i class="fa fa-heart" onclick="fav('+$id+',\''+$channel+'\')"></i><i class="fa fa-caret-square-o-right" onclick="playlist('+$id+')"></i><i class="fa fa-eye"></i></div></div>';
 						 				}
 						 				$div = $div + '<div class="clear"></div>';
 						 				$(".nav-results-wrapper").empty();
@@ -294,7 +315,7 @@
 		  				 
 						 refresh_fav();
 						 
-		   			     });
+		   			 
 							</script>
 						</div>
 					</section>
