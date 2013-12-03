@@ -973,3 +973,9 @@ h2.date-header {margin:2px 0 10px;}
 .fa{
 	margin:4px;
 }
+#tabs-1 p {
+    float: left !important;
+    margin-left: 2%;
+    width: 73%;
+}
+
