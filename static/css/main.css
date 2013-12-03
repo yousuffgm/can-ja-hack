@@ -983,7 +983,7 @@ h2.date-header {margin:2px 0 10px;}
 	clear:both;
 }
 .fa{
-	margin:4px;
+	margin:4px;cursor:pointer;
 }
 #tabs-1 p {
     float: left !important;
@@ -994,3 +994,13 @@ h2.date-header {margin:2px 0 10px;}
 .nwPlyngLoc .on{cursor:default}
 .post.hentry{overflow:hidden}
 
+#auth-greeting{float:left;margin:6px;padding-right:6px}
+#signout.authd{float:right}
+#tabs-1, #tabs-2{padding:1em 0.833em}
+#tabs-1 .nav-tabs-wrapper{float:left;margin-right:3%;width:17%}
+#tabs-1 .nav-tabs-wrapper .nav-items{line-height:26px;vertical-align:middle;cursor:pointer;padding-left:6px}
+#tabs-1 .nav-tabs-wrapper .nav-items:hover{font-weight:bold;background:#eee}
+#tabs-1 .nav-results-wrapper{float:left;width:79.5%}
+
+#tabs-1 .nav-results-wrapper .item, #tabs-2 #search-results .item{width:120px !important;margin:9px 7px !important}
+#tabs-1 .nav-results-wrapper .item img, #tabs-2 #search-results .item img{height:90px !important;width:120px !important}
