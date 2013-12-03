@@ -188,7 +188,7 @@
 													</div>
 													<div>
 														<p>
-															<a href="#">Binay</a> added the video to his favourites - 55 secs ago
+															<a href="#">Binay</a> added this video to his favourites - 55 secs ago
 														</p>
 													</div>
 												</div>
@@ -201,7 +201,7 @@
 													</div>
 													<div>
 														<p>
-															<a href="#">Jojo</a> added the video to his favourites - 1 min ago
+															<a href="#">Jojo</a> added this video to his favourites - 1 min ago
 														</p>
 													</div>
 												</div>
@@ -214,7 +214,7 @@
 													</div>
 													<div>
 														<p>
-															<a href="#">Manasa</a> added the video to her favourites - 1 min 35 secs ago
+															<a href="#">Manasa</a> added this video to her favourites - 1 min 35 secs ago
 														</p>
 													</div>
 												</div>
@@ -227,7 +227,7 @@
 													</div>
 													<div>
 														<p>
-															<a href="#">Yousuff</a> added the video to his favourites - 3 mins ago
+															<a href="#">Yousuff</a> added this video to his favourites - 3 mins ago
 														</p>
 													</div>
 												</div>
@@ -240,7 +240,7 @@
 													</div>
 													<div>
 														<p>
-															<a href="#">Bob</a> added the video to his favourites - 4 mins 3 secs ago
+															<a href="#">Bob</a> added this video to his favourites - 4 mins 3 secs ago
 														</p>
 													</div>
 												</div>
