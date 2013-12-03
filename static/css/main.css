@@ -1,0 +1,44 @@
+.wrapper{
+	margin:auto;
+	width:1024px;
+	height:auto;
+	border:1px solid grey;
+}
+.header{
+	width:100%;
+	height:50px;
+}
+.auth-link{
+	float:right;
+	width:300px;
+	overflow:hidden;
+	text-align: right;
+}
+.authd{
+	display:none;
+}
+.menu{
+	width:150px;
+	float:left;
+	border-right:1px solid grey;
+	
+}
+.left{
+	width:720px;
+	float:left;
+	border-right:1px solid grey;
+	
+}
+.right{
+	width:300px;
+	float:left;
+}
+.player{
+	display:block;
+}
+.clear{
+	clear:both;
+}
+.fa{
+	margin:4px;
+}
