@@ -15,16 +15,14 @@ $(function() {
 		}
 	});
 	$(".usr_following").click(function(){
-		$(".usr_unfollow_me").css("display", "block");
-		if($(".usr_msg_brd").hasClass("usr_unfollow_me")){
-			//alert('yes');
-			$(".usr_unfollow_me").css("display", "none");
-		};
+		$(".usr_unfollow_me").toggleClass('unfollow_me_thr');
 	});
 	$(".usr_unfollow_me").click(function(){
+		$(".usr_unfollow_me").removeClass('unfollow_me_thr')
 		$(".usr_follow_me").css("display","block");
 		$('.usr_following').css("display","none");
-		$(".usr_unfollow_me").css("display", "none");
+
+		$(".usr_unfollow_me").css("display", "none !important");
 	});
 	$(".usr_follow_me").click(function(){
 		$(this).css("display","none")
