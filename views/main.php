@@ -36,12 +36,23 @@
 		function setPlayer(e){
 			console.log(e);
 		}
-		
+		function play(id){
+ 
+		 j = document.createElement("script");
+		 j.type = "text/javascript";
+		 j.src = 'http://pshared.5min.com/Scripts/PlayerSeed.js?sid=281&width=720&height=500&playList='+id+'&autoStart=true&onVideoDataLoaded=setPlayer';
+		 div = document.getElementById("video-container");
+		 $(div).css({"width":"720px","height":"500px"})
+		 div.innerHTML = "";
+		 div.appendChild(j);
+		 }
+		 
 		function fav(id,channel){
 			channel = $.trim(channel);
 			$.getJSON('http://169.254.11.15/~yousuffqa/ajax.php?action=add_fav&channel='+channel+'&id='+id,function(json){
 				console.log(json);
 			});
+			 refresh_fav();
 		}
 		function search_submit(){
 			var q = $("input[name^='query']").val();
@@ -166,12 +177,43 @@
 							<script>
 		   			     $(function() {
 		   			       $( "#tabs" ).tabs();
-		   				   $.get("http://169.254.11.15/~yousuffqa/ajax.php?action=get_fav&userpage=admin", function( data ) {
+		   				   function refresh_fav(){
+						   
+						   $.get("http://169.254.11.15/~yousuffqa/ajax.php?action=get_fav&userpage=admin", function( data ) {
 		   				     $( "#tabs-1" ).html( data );
+							
+							 $(".nav-items").each(function(i,v){
+								 var $vid = $(this).attr("vid-load");
+								 console.log($vid);
+			  					 $(this).click(function(e){
+									 e.preventDefault();
+						 			 var $vid = $(this).attr("vid-load");
+									 //console.log($vid);
+									 //console.log("i am clicked")
+						 				 $.getJSON("http://api.5min.com/video/list/info.json?video_ids="+$vid,function(json){
+						 				$div = "";
+						 				for(i=0;i<json.items.length;i++){
+						 					var $id = json.items[i].id;
+						 					var $channel = json.items[i].channel;
+						 					$div = $div + '<div class="item" video-id="'+$id+'"video-tag="'+$channel+'" style="float:left;margin:10px;width:100px;"><img style="float:left" src='+json.items[i].image+' width="100px" height="100px" onclick="play('+json.items[i].id+')"/><div class="fav-icons" style="float:left;"><i class="fa fa-heart" onclick="fav('+$id+',\''+$channel+'\')"></i><i class="fa fa-caret-square-o-right"></i><i class="fa fa-eye"></i></div></div>';
+						 				}
+						 				$div = $div + '<div class="clear"></div>';
+						 				$(".nav-results-wrapper").empty();
+						 				$(".nav-results-wrapper").append($div);
+						 			});
+			  					 });
+			  				 });
+					   	  	$(".nav-items").each(function(i,v){
+					   	  		if(i==0)
+									$(this).trigger("click");
+							
+					   	  	});
 				     
 		   				   });
-				   
-				   
+					   }
+		  				 
+						 refresh_fav();
+						 
 		   			     });
 							</script>
 						</div>

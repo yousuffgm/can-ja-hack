@@ -46,7 +46,7 @@ switch($_GET["action"]){
 					$vids = $vids . ',' . $value1;
 					
 			}
-			$navdiv = $navdiv . '<div class="nav-items-'.$key.'" vid-load="'. $vids .'">' . $value . '</div>';
+			$navdiv = $navdiv . '<div class="nav-items nav-items-'.$key.'" vid-load="'. $vids .'">' . $value . '</div>';
 			//$navvids = $navvids . '<div class="nav-items-results'.$key.'"></div>';
 		}
 		$navdiv = $navdiv . '</div>';
