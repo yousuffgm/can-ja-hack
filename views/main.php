@@ -30,7 +30,7 @@
 		</script>
 		<?php
 		}
-		echo $username;
+		
 		?>
 		<script>
 		function setPlayer(e){
@@ -47,6 +47,11 @@
 		 div.appendChild(j);
 		 }
 		 
+		 function playlist(id){
+ 			$.getJSON('http://169.254.11.15/~yousuffqa/ajax.php?action=add_playlist&id='+id,function(json){
+ 				console.log(json);
+ 			});
+		 }
 		function fav(id,channel){
 			channel = $.trim(channel);
 			$.getJSON('http://169.254.11.15/~yousuffqa/ajax.php?action=add_fav&channel='+channel+'&id='+id,function(json){
@@ -119,7 +124,9 @@
 											<div class="post-outer">
 												<div class="post hentry">
 													<div style='text-align:center'>
+														<div id="video-container">
 														<script type='text/javascript' src='http://pshared.5min.com/Scripts/PlayerSeed.js?sid=281&width=670&height=413&playList=518032684'></script>
+													</div>
 													</div>
 												</div>
 											</div>
@@ -166,12 +173,7 @@
 									<div id="search-results"></div>
 								</div>
 								<div id="tabs-3">
-									<p>
-										Mauris eleifend est et turpis. Duis id erat. Suspendisse potenti. Aliquam vulputate, pede vel vehicula accumsan, mi neque rutrum erat, eu congue orci lorem eget lorem. Vestibulum non ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce sodales. Quisque eu urna vel enim commodo pellentesque. Praesent eu risus hendrerit ligula tempus pretium. Curabitur lorem enim, pretium nec, feugiat nec, luctus a, lacus.
-									</p>
-									<p>
-										Duis cursus. Maecenas ligula eros, blandit nec, pharetra at, semper at, magna. Nullam ac lacus. Nulla facilisi. Praesent viverra justo vitae neque. Praesent blandit adipiscing velit. Suspendisse potenti. Donec mattis, pede vel pharetra blandit, magna ligula faucibus eros, id euismod lacus dolor eget odio. Nam scelerisque. Donec non libero sed nulla mattis commodo. Ut sagittis. Donec nisi lectus, feugiat porttitor, tempor ac, tempor vitae, pede. Aenean vehicula velit eu tellus interdum rutrum. Maecenas commodo. Pellentesque nec elit. Fusce in lacus. Vivamus a libero vitae lectus hendrerit hendrerit.
-									</p>
+									
 								</div>
 								<div id="tabs-4">
 									<div class="usr_msg_brd_tab">
@@ -187,7 +189,8 @@
 							<script>
 		   			     $(function() {
 		   			       $( "#tabs" ).tabs();
-		   				   function refresh_fav(){
+		   				   search_submit();
+						   function refresh_fav(){
 						   
 						   $.get("http://169.254.11.15/~yousuffqa/ajax.php?action=get_fav&userpage=admin", function( data ) {
 		   				     $( "#tabs-1" ).html( data );

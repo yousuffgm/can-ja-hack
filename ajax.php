@@ -59,7 +59,35 @@ switch($_GET["action"]){
 		echo $navdiv . $navvids;
 		
 	break;
+	case "add_playlist":
+		$vid = $_GET["id"];
+		$v = $vid; 
+		if(is_loggedin()){
+		
+			$redis->lpush("username:".$username.":playlist",$v);
+			if(is_admin()){
+				$redis->lpush("username:"."admin".":playlist",$v);
+			}
+			echo '{"stats":"OK","MSG":"SUCCESS"}';
+			return;
+		} 
+		else{
+			echo '{"stats":"Error","MSG":"NOT LOGGEDIN"}';
+			return;
+		}
+	break;
 	
+	case "get_playlist":
+		$playlist = $redis->lrange("username:".$userpage.":playlist",0,100);
+		$vids = "";
+		foreach ($playlist as $key => $value){
+			if(empty($vids))
+				$vids = $vids . $value;
+			else
+				$vids = $vids . ',' . $value;
+		}
+		return $vids;
+	break;
 }
 
 ?>
