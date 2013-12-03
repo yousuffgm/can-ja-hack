@@ -19,7 +19,7 @@
 		?>
 		<script>
 			var auth = 1;
-			var userpage = $username;
+			var userpage = "<?php echo $username; ?>";
 		</script>
 		<?php
 		}
@@ -260,8 +260,9 @@
 		   				   search_submit();
 						   
 						   function get_playlist(){
-							   $.getJSON("http://169.254.11.15/~yousuffqa/ajax.php?action=get_playlist&userpage=admin", function( data ) {
+							   $.getJSON("http://169.254.11.15/~yousuffqa/ajax.php?action=get_playlist&userpage="+userpage, function( data ) {
 								   var $vid = data.videos;
+								   if(!$vid){return;}
 								   play($vid);
 								   //console.log($vid);
 								   $.getJSON("http://api.5min.com/video/list/info.json?video_ids="+$vid,function(json){
@@ -281,7 +282,7 @@
 						   get_playlist();
 						   function refresh_fav(){
 						   
-						   $.get("http://169.254.11.15/~yousuffqa/ajax.php?action=get_fav&userpage=admin", function( data ) {
+						   $.get("http://169.254.11.15/~yousuffqa/ajax.php?action=get_fav&userpage="+userpage, function( data ) {
 		   				     $( "#tabs-1" ).html( data );
 							
 							 $(".nav-items").each(function(i,v){
