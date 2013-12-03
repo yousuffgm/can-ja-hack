@@ -178,7 +178,74 @@
 								<div id="tabs-4">
 									<div class="usr_msg_brd_tab">
 										<div class="usr_detls">
-											<span class="usr_name">Name</span> is following you...
+											<div id="search-results">
+												<div class="usrmsgCntr">
+													<div class="item" video-id="518034879" video-tag="Entertainment" style="float:left;margin:10px;width:100px;"><img style="float:left" src="http://pthumbnails.5min.com/10360698/518034879_c.jpg" width="100px" height="100px" onclick="play(518034879)">
+														<div class="fav-icons" style="float:left;">
+															<i class="fa fa-heart" onclick="fav(518034879,'Entertainment')"></i><i class="fa fa-caret-square-o-right"></i><i class="fa fa-eye"></i>
+														</div>
+													</div>
+													<div>
+														<p>
+															<a href="#">Binay</a> add this to his favourites - 55 Secs ago
+														</p>
+													</div>
+												</div>
+
+												<div class="usrmsgCntr">
+													<div class="item" video-id="518034878" video-tag="Entertainment" style="float:left;margin:10px;width:100px;"><img style="float:left" src="http://pthumbnails.5min.com/10360698/518034878_c.jpg" width="100px" height="100px" onclick="play(518034878)">
+														<div class="fav-icons" style="float:left;">
+															<i class="fa fa-heart" onclick="fav(518034878,'Entertainment')"></i><i class="fa fa-caret-square-o-right"></i><i class="fa fa-eye"></i>
+														</div>
+													</div>
+													<div>
+														<p>
+															<a href="#">Jojo</a> add this to his favourites - 1 min ago
+														</p>
+													</div>
+												</div>
+
+												<div class="usrmsgCntr">
+													<div class="item" video-id="518034876" video-tag="News" style="float:left;margin:10px;width:100px;"><img style="float:left" src="http://pthumbnails.5min.com/10360698/518034876_c.jpg" width="100px" height="100px" onclick="play(518034876)">
+														<div class="fav-icons" style="float:left;">
+															<i class="fa fa-heart" onclick="fav(518034876,'News')"></i><i class="fa fa-caret-square-o-right"></i><i class="fa fa-eye"></i>
+														</div>
+													</div>
+													<div>
+														<p>
+															<a href="#">Manasa</a> add this to her favourites - 1 min 35 Secs ago
+														</p>
+													</div>
+												</div>
+
+												<div class="usrmsgCntr">
+													<div class="item" video-id="518034874" video-tag="News" style="float:left;margin:10px;width:100px;"><img style="float:left" src="http://pthumbnails.5min.com/10360698/518034874_c.jpg" width="100px" height="100px" onclick="play(518034874)">
+														<div class="fav-icons" style="float:left;">
+															<i class="fa fa-heart" onclick="fav(518034874,'News')"></i><i class="fa fa-caret-square-o-right"></i><i class="fa fa-eye"></i>
+														</div>
+													</div>
+													<div>
+														<p>
+															<a href="#">Yousuff</a> add this to his favourites - 3 mins ago
+														</p>
+													</div>
+												</div>
+
+												<div class="usrmsgCntr">
+													<div class="item" video-id="518034873" video-tag="News" style="float:left;margin:10px;width:100px;"><img style="float:left" src="http://pthumbnails.5min.com/10360698/518034873_c.jpg" width="100px" height="100px" onclick="play(518034873)">
+														<div class="fav-icons" style="float:left;">
+															<i class="fa fa-heart" onclick="fav(518034873,'News')"></i><i class="fa fa-caret-square-o-right"></i><i class="fa fa-eye"></i>
+														</div>
+													</div>
+													<div>
+														<p>
+															<a href="#">Bob</a> add this to his favourites - 4 mins 3 Secs ago
+														</p>
+													</div>
+												</div>
+												
+												<div class="clear"></div>
+											</div>
 										</div>
 									</div>
 								</div>
