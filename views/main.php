@@ -55,9 +55,7 @@
 			<div class="header section" id="header">
 				<div class="widget Header" id="Header1">
 					<div id="header-inner">
-						<a href="#" style="display: block">
-							<img alt="My video Page" id="Header1_headerimg" src="./static/img/logo-2.png">
-						</a>
+						<a href="#" style="display: block"> <img alt="My video Page" id="Header1_headerimg" src="./static/img/logo-2.png"> </a>
 					</div>
 				</div>
 			</div>
@@ -97,25 +95,8 @@
 
 											<div class="post-outer">
 												<div class="post hentry">
-													<a name="2418155305968457992"></a>
-													<h3 class="post-title entry-title"><a href="http://responsive-templates.blogspot.in/2013/03/what-matters-for-blackberry-is-what.html">What Matters for BlackBerry is What Matters to Users</a></h3>
-													<div class="post-header">
-														<div class="post-header-line-1"></div>
-													</div>
-													<script>
-														var ultimaFecha = 'Thursday, March 7, 2013';
-													</script>
-													<h2 class="date-header">Thursday, March 7, 2013</h2>
-													<div class="post-body entry-content">
-														<div class="separator" style="clear: both; text-align: center;">
-															<a href="./static/img/BlackBerry+10.jpg" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="./static/img/BlackBerry+10.jpg"></a>
-														</div>
-														At this week's Computerworld Premier 100 conference in Tucson, I asked many of the IT leaders whether their companies will use the coming BlackBerry Z10 smartphone or its qwerty cousin, the Q10. I had done a review of the Z10 and found the underlying BlackBerry 10 OS to be very good. Based on my experience, I thought there might be some genuine interest.
-														<br>
-														<div style="clear: both;"></div>
-													</div>
-													<div class="jump-link">
-														<a href="http://responsive-templates.blogspot.in/2013/03/what-matters-for-blackberry-is-what.html#more" title="What Matters for BlackBerry is What Matters to Users">Read more »</a>
+													<div style='text-align:center'>
+														<script type='text/javascript' src='http://pshared.5min.com/Scripts/PlayerSeed.js?sid=281&width=670&height=413&playList=518032684'></script>
 													</div>
 												</div>
 											</div>
@@ -127,85 +108,87 @@
 							</div>
 						</div>
 						<div class="list">
-					<div id="tabs">
-						<ul>
-							<li>
-								<a href="#tabs-1">Favorites</a>
-							</li>
-							<li>
-								<a href="#tabs-2">Search</a>
-							</li>
-							<li>
-								<a href="#tabs-3">Playlist</a>
-							</li>
-							<li>
-								<a href="#tabs-4">Message Boards</a>
-							</li>
-							<li>
-								<a href="#tabs-5">Watch Later</a>
-							</li>
-						</ul>
-						<div id="tabs-1">
-											<section id="sidebar-wrapper_fav">
-												<div id="sidebar" class="sidebar section">
-													<div id="Label1" class="widget Label">
-														<h2>Labels</h2>
-														<div class="widget-content list-label-widget-content">
-															<ul>
-																<li>
-																	<a href="http://responsive-templates.blogspot.in/search/label/BlackBerry" dir="ltr">BlackBerry</a>
-																</li>
-																<li>
-																	<a href="http://responsive-templates.blogspot.in/search/label/Facebook" dir="ltr">Facebook</a>
-																</li>
-																<li>
-																	<a href="http://responsive-templates.blogspot.in/search/label/Google" dir="ltr">Google</a>
-																</li>
-																<li>
-																	<a href="http://responsive-templates.blogspot.in/search/label/Google%2B" dir="ltr">Google+</a>
-																</li>
-																<li>
-																	<a href="http://responsive-templates.blogspot.in/search/label/Images" dir="ltr">Images</a>
-																</li>
+							<div id="tabs">
+								<ul>
+									<li>
+										<a href="#tabs-1">Favorites</a>
+									</li>
+									<li>
+										<a href="#tabs-2">Search</a>
+									</li>
+									<li>
+										<a href="#tabs-3">Playlist</a>
+									</li>
+									<li>
+										<a href="#tabs-4">Message Boards</a>
+									</li>
+									<li>
+										<a href="#tabs-5">Watch Later</a>
+									</li>
+								</ul>
+								<div id="tabs-1">
+									<section id="sidebar-wrapper_fav">
+										<div id="sidebar" class="sidebar section">
+											<div id="Label1" class="widget Label">
+												<h2>Labels</h2>
+												<div class="widget-content list-label-widget-content">
+													<ul>
+														<li>
+															<a href="http://responsive-templates.blogspot.in/search/label/BlackBerry" dir="ltr">BlackBerry</a>
+														</li>
+														<li>
+															<a href="http://responsive-templates.blogspot.in/search/label/Facebook" dir="ltr">Facebook</a>
+														</li>
+														<li>
+															<a href="http://responsive-templates.blogspot.in/search/label/Google" dir="ltr">Google</a>
+														</li>
+														<li>
+															<a href="http://responsive-templates.blogspot.in/search/label/Google%2B" dir="ltr">Google+</a>
+														</li>
+														<li>
+															<a href="http://responsive-templates.blogspot.in/search/label/Images" dir="ltr">Images</a>
+														</li>
 
-															</ul>
-															<div class="clear"></div>
-															<span class="widget-item-control"> <span class="item-control blog-admin"> <a title="Edit" target="configLabel1" onclick="return _WidgetManager._PopupConfig(document.getElementById(&quot;Label1&quot;));" href="http://www.blogger.com/rearrange?blogID=3098404464998738722&amp;widgetType=Label&amp;widgetId=Label1&amp;action=editWidget&amp;sectionId=sidebar" class="quickedit"> <img height="18" width="18" src="./static/img/icon18_wrench_allbkg.png" alt=""> </a> </span> </span>
-															<div class="clear"></div>
-														</div>
-													</div>
+													</ul>
+													<div class="clear"></div>
+													<span class="widget-item-control"> <span class="item-control blog-admin"> <a title="Edit" target="configLabel1" onclick="return _WidgetManager._PopupConfig(document.getElementById(&quot;Label1&quot;));" href="http://www.blogger.com/rearrange?blogID=3098404464998738722&amp;widgetType=Label&amp;widgetId=Label1&amp;action=editWidget&amp;sectionId=sidebar" class="quickedit"> <img height="18" width="18" src="./static/img/icon18_wrench_allbkg.png" alt=""> </a> </span> </span>
+													<div class="clear"></div>
 												</div>
-											</section>
-										<p> Hugo Chavez passed away  after a two-year battle with cancer. The colorful and controversial socialist Venezuelan president, who once call...</p>
+											</div>
+										</div>
+									</section>
+									<p>
+										Hugo Chavez passed away  after a two-year battle with cancer. The colorful and controversial socialist Venezuelan president, who once call...
+									</p>
+								</div>
+								<div id="tabs-2">
+									<div id="search-container">
+										<input type="text" name="query"/>
+										<input type="button" value="submit" onclick="search_submit()"/>
 									</div>
-						<div id="tabs-2">
-							<div id="search-container">
-								<input type="text" name="query"/>
-								<input type="button" value="submit" onclick="search_submit()"/>
+									<div id="search-results"></div>
+								</div>
+								<div id="tabs-3">
+									<p>
+										Mauris eleifend est et turpis. Duis id erat. Suspendisse potenti. Aliquam vulputate, pede vel vehicula accumsan, mi neque rutrum erat, eu congue orci lorem eget lorem. Vestibulum non ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce sodales. Quisque eu urna vel enim commodo pellentesque. Praesent eu risus hendrerit ligula tempus pretium. Curabitur lorem enim, pretium nec, feugiat nec, luctus a, lacus.
+									</p>
+									<p>
+										Duis cursus. Maecenas ligula eros, blandit nec, pharetra at, semper at, magna. Nullam ac lacus. Nulla facilisi. Praesent viverra justo vitae neque. Praesent blandit adipiscing velit. Suspendisse potenti. Donec mattis, pede vel pharetra blandit, magna ligula faucibus eros, id euismod lacus dolor eget odio. Nam scelerisque. Donec non libero sed nulla mattis commodo. Ut sagittis. Donec nisi lectus, feugiat porttitor, tempor ac, tempor vitae, pede. Aenean vehicula velit eu tellus interdum rutrum. Maecenas commodo. Pellentesque nec elit. Fusce in lacus. Vivamus a libero vitae lectus hendrerit hendrerit.
+									</p>
+								</div>
+								<div id="tabs-4">
+
+								</div>
+								<div id="tabs-5">
+
+								</div>
 							</div>
-							<div id="search-results"></div>
+							<script>
+								$(function() {
+									$("#tabs").tabs();
+								});
+							</script>
 						</div>
-						<div id="tabs-3">
-							<p>
-								Mauris eleifend est et turpis. Duis id erat. Suspendisse potenti. Aliquam vulputate, pede vel vehicula accumsan, mi neque rutrum erat, eu congue orci lorem eget lorem. Vestibulum non ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce sodales. Quisque eu urna vel enim commodo pellentesque. Praesent eu risus hendrerit ligula tempus pretium. Curabitur lorem enim, pretium nec, feugiat nec, luctus a, lacus.
-							</p>
-							<p>
-								Duis cursus. Maecenas ligula eros, blandit nec, pharetra at, semper at, magna. Nullam ac lacus. Nulla facilisi. Praesent viverra justo vitae neque. Praesent blandit adipiscing velit. Suspendisse potenti. Donec mattis, pede vel pharetra blandit, magna ligula faucibus eros, id euismod lacus dolor eget odio. Nam scelerisque. Donec non libero sed nulla mattis commodo. Ut sagittis. Donec nisi lectus, feugiat porttitor, tempor ac, tempor vitae, pede. Aenean vehicula velit eu tellus interdum rutrum. Maecenas commodo. Pellentesque nec elit. Fusce in lacus. Vivamus a libero vitae lectus hendrerit hendrerit.
-							</p>
-						</div>
-						<div id="tabs-4">
-
-						</div>
-						<div id="tabs-5">
-
-						</div>
-					</div>
-					<script>
-						$(function() {
-							$("#tabs").tabs();
-						});
-					</script>
-				</div>
 					</section>
 					<section id="sidebar-wrapper">
 						<div class="sidebar section" id="sidebar">
@@ -260,14 +243,22 @@
 							</div>
 						</div>
 					</section>
-					
+
 				</div>
 				<!-- end content-wrapper -->
 				<aside id="sidebar2-wrapper">
 					<div class="sidebar2 section" id="sidebar2">
 						<div class="widget PopularPosts" id="PopularPosts1">
-							<h2>Playing Now</h2> <!--remove--><button>click</button>
-							 <ul class="nwPlyngLoc"><li class="nwPlyngLcl"><img src="./static/img/iconmonstr-home-4-icon-24.png" /></li><li class="nwPlyngwrd"><img src="./static/img/iconmonstr-globe-icon-24.png" /></li></ul>
+							<h2>Playing Now</h2><!--remove-->
+							<button>
+								click
+							</button>
+							<ul class="nwPlyngLoc">
+								<li class="nwPlyngLcl"><img src="./static/img/iconmonstr-home-4-icon-24.png" />
+								</li>
+								<li class="nwPlyngwrd"><img src="./static/img/iconmonstr-globe-icon-24.png" />
+								</li>
+							</ul>
 							<div class="widget-content lcl-popular-posts">
 								<ul>
 									<li class="myvidpg-nwplying">
@@ -280,7 +271,7 @@
 											</div>
 											<embed width="300" height="250" style="display:none" src="http://embed.5min.com/517750342/&amp;sid=577&amp;autoStart=true">
 											<!--<div class="item-snippet">
-												At this week's Computerworld Premier 100 conference in Tucson, I asked many of the IT leaders whether their companies will use the com...
+											At this week's Computerworld Premier 100 conference in Tucson, I asked many of the IT leaders whether their companies will use the com...
 											</div>-->
 										</div>
 										<div style="clear: both;"></div>
@@ -295,7 +286,7 @@
 											</div>
 											<embed width="300" height="250" style="display:none" src="http://embed.5min.com/517750342/&amp;sid=577&amp;autoStart=true">
 											<!--<div class="item-snippet">
-												Hugo Chavez passed away  after a two-year battle with cancer. The colorful and controversial socialist Venezuelan president, who once call...
+											Hugo Chavez passed away  after a two-year battle with cancer. The colorful and controversial socialist Venezuelan president, who once call...
 											</div>-->
 										</div>
 										<div style="clear: both;"></div>
@@ -317,7 +308,7 @@
 											</div>
 											<embed width="300" height="250" style="display:none" src="http://embed.5min.com/517750342/&amp;sid=577&amp;autoStart=true">
 											<!--<div class="item-snippet">
-												At this week's Computerworld Premier 100 conference in Tucson, I asked many of the IT leaders whether their companies will use the com...
+											At this week's Computerworld Premier 100 conference in Tucson, I asked many of the IT leaders whether their companies will use the com...
 											</div>-->
 										</div>
 										<div style="clear: both;"></div>
@@ -332,7 +323,7 @@
 											</div>
 											<embed width="300" height="250" style="display:none" src="http://embed.5min.com/517750342/&amp;sid=577&amp;autoStart=true">
 											<!--<div class="item-snippet">
-												Hugo Chavez passed away  after a two-year battle with cancer. The colorful and controversial socialist Venezuelan president, who once call...
+											Hugo Chavez passed away  after a two-year battle with cancer. The colorful and controversial socialist Venezuelan president, who once call...
 											</div>-->
 										</div>
 										<div style="clear: both;"></div>
@@ -344,44 +335,44 @@
 							</div>
 						</div>
 						<!--<div class="widget PopularPosts" id="PopularPosts1">
-							<h2>Popular Videos</h2>
-							<div class="widget-content popular-posts">
-								<ul>
-									<li>
-										<div class="item-content">
-											<div class="item-thumbnail">
-												<a href="" target="_blank"> <img alt="" border="0" height="72" src="./static/img/BlackBerry+10(1).jpg" width="72"> </a>
-											</div>
-											<div class="item-title">
-												<a href="">What Matters for BlackBerry is What Matters to Users</a>
-											</div>
-											<embed width="300" height="250" style="display:none" src="http://embed.5min.com/517750342/&amp;sid=577&amp;autoStart=true">-->
-											<!--<div class="item-snippet">
-												At this week's Computerworld Premier 100 conference in Tucson, I asked many of the IT leaders whether their companies will use the com...
-											</div>-->
-										<!--</div>
-										<div style="clear: both;"></div>
-									</li>
-									<li>
-										<div class="item-content">
-											<div class="item-thumbnail">
-												<a href="" target="_blank"> <img alt="" border="0" height="72" src="./static/img/Twitter(1).jpg" width="72"> </a>
-											</div>
-											<div class="item-title">
-												<a href="">Hugo Chavez Dies and the Twitter Town Square Reacts</a>
-											</div>
-											<embed width="300" height="250" style="display:none" src="http://embed.5min.com/517750342/&amp;sid=577&amp;autoStart=true">
-											<!--<div class="item-snippet">
-												Hugo Chavez passed away  after a two-year battle with cancer. The colorful and controversial socialist Venezuelan president, who once call...
-											</div>-->
-										<!--</div>
-										<div style="clear: both;"></div>
-									</li>
-								</ul>
-								<div class="clear"></div>
-								<span class="widget-item-control"> <span class="item-control blog-admin"> <a class="quickedit" href="http://www.blogger.com/rearrange?blogID=3098404464998738722&widgetType=PopularPosts&widgetId=PopularPosts1&action=editWidget&sectionId=sidebar2" onclick="return _WidgetManager._PopupConfig(document.getElementById(&quot;PopularPosts1&quot;));" target="configPopularPosts1" title="Edit"> <img alt="" height="18" src="./static/img/icon18_wrench_allbkg.png" width="18"> </a> </span> </span>
-								<div class="clear"></div>
-							</div>
+						<h2>Popular Videos</h2>
+						<div class="widget-content popular-posts">
+						<ul>
+						<li>
+						<div class="item-content">
+						<div class="item-thumbnail">
+						<a href="" target="_blank"> <img alt="" border="0" height="72" src="./static/img/BlackBerry+10(1).jpg" width="72"> </a>
+						</div>
+						<div class="item-title">
+						<a href="">What Matters for BlackBerry is What Matters to Users</a>
+						</div>
+						<embed width="300" height="250" style="display:none" src="http://embed.5min.com/517750342/&amp;sid=577&amp;autoStart=true">-->
+						<!--<div class="item-snippet">
+						At this week's Computerworld Premier 100 conference in Tucson, I asked many of the IT leaders whether their companies will use the com...
+						</div>-->
+						<!--</div>
+						<div style="clear: both;"></div>
+						</li>
+						<li>
+						<div class="item-content">
+						<div class="item-thumbnail">
+						<a href="" target="_blank"> <img alt="" border="0" height="72" src="./static/img/Twitter(1).jpg" width="72"> </a>
+						</div>
+						<div class="item-title">
+						<a href="">Hugo Chavez Dies and the Twitter Town Square Reacts</a>
+						</div>
+						<embed width="300" height="250" style="display:none" src="http://embed.5min.com/517750342/&amp;sid=577&amp;autoStart=true">
+						<!--<div class="item-snippet">
+						Hugo Chavez passed away  after a two-year battle with cancer. The colorful and controversial socialist Venezuelan president, who once call...
+						</div>-->
+						<!--</div>
+						<div style="clear: both;"></div>
+						</li>
+						</ul>
+						<div class="clear"></div>
+						<span class="widget-item-control"> <span class="item-control blog-admin"> <a class="quickedit" href="http://www.blogger.com/rearrange?blogID=3098404464998738722&widgetType=PopularPosts&widgetId=PopularPosts1&action=editWidget&sectionId=sidebar2" onclick="return _WidgetManager._PopupConfig(document.getElementById(&quot;PopularPosts1&quot;));" target="configPopularPosts1" title="Edit"> <img alt="" height="18" src="./static/img/icon18_wrench_allbkg.png" width="18"> </a> </span> </span>
+						<div class="clear"></div>
+						</div>
 						</div>-->
 				</aside>
 				<div id="footer-wrapper">
@@ -395,9 +386,9 @@
 				Copyright © 2013. <a class="sitename" href="#" title="My Video Page">My Video Page</a>
 			</div>
 		</footer>
-	<?php
+		<?php
 		loadfooterscripts();
-	?>
+		?>
 	</body>
 
 </html>
