@@ -999,7 +999,8 @@ h2.date-header {margin:2px 0 10px;}
 #signout.authd{float:right}
 #tabs-1, #tabs-2{padding:1em 0.833em}
 #tabs-1 .nav-tabs-wrapper{float:left;margin-right:3%;width:17%}
-#tabs-1 .nav-tabs-wrapper .nav-items{line-height:26px;vertical-align:middle;cursor:pointer;padding-left:6px}
+#tabs-1 .nav-tabs-wrapper .nav-items{line-height:26px;vertical-align:middle;cursor:pointer;padding-left:6px;border:1px solid #CE0909;background-color:#fefefe;border-width:1px 1px 0}
+#tabs-1 .nav-tabs-wrapper .nav-items:last-child{border-bottom-width:1px}
 #tabs-1 .nav-tabs-wrapper .nav-items:hover{font-weight:bold;background:#eee}
 #tabs-1 .nav-results-wrapper{float:left;width:79.5%}
 
