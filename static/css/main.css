@@ -633,3 +633,7 @@ h2.date-header{margin:2px 0 10px}
 #tabs-1 .nav-results-wrapper .item,#tabs-2 #search-results .item{width:120px !important;margin:9px 7px !important}
 #tabs-1 .nav-results-wrapper .item img,#tabs-2 #search-results .item img{height:90px !important;width:120px !important;cursor:pointer;border:1px solid #eb020a}
 .unfollow_me_thr{display:block !important}
+#tabs-4 .usr_detls{width:100%}
+.usr_detls #search-results .usrmsgCntr{width:100%;overflow:hidden;border-bottom:1px solid #aaa}
+.usr_detls #search-results .usrmsgCntr .item{width:75px !important;margin:9px 24px 9px 7px !important}
+.usr_detls #search-results .usrmsgCntr .item img{height:45px !important;width:75px !important;cursor:pointer;border:1px solid #eb020a}
