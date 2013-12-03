@@ -26,7 +26,7 @@ function validate(){
 	if(isset($_COOKIE['token_a'])) {
 		$token = $_COOKIE['token_a'];
 		$valUrl = build_url('http://api.screenname.aol.com/auth/getInternalInfo',array(
-	                        "devId"=>'ao17S3Mj9Y6FcgIJ',
+	                        "devId"=>'ao1fW_i9ThgtiBSR',
 	                        "f"=>"json",
 	                        "attribute"=>implode(",", array('username','guid','displayName','email','age')),
 	                        "referer"=>	getBaseUrl(),
