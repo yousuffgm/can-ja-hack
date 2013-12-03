@@ -14,6 +14,22 @@ $(function() {
 			tabs.tabs( "refresh" );
 		}
 	});
+	$(".usr_following").click(function(){
+		$(".usr_unfollow_me").css("display", "block");
+		if($(".usr_msg_brd").hasClass("usr_unfollow_me")){
+			//alert('yes');
+			$(".usr_unfollow_me").css("display", "none");
+		};
+	});
+	$(".usr_unfollow_me").click(function(){
+		$(".usr_follow_me").css("display","block");
+		$('.usr_following').css("display","none");
+		$(".usr_unfollow_me").css("display", "none");
+	});
+	$(".usr_follow_me").click(function(){
+		$(this).css("display","none")
+		$('.usr_following').css("display","block");
+	});
 	$(".nwPlyngLcl").addClass('on');
 	/*$(".lcl-popular-posts").addClass('local');*/
 	$(".nwPlyngLcl").click(function(){
