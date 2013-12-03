@@ -317,7 +317,7 @@ a img{border-width:0}
 #tabs-1>section{width:25%;float:left}
 .usr_follow_me,.usr_following{border:1px solid #eb020a;border-radius:6px;color:#eb020a;float:left;padding:.7%;cursor:pointer}
 .usr_detls{float:left;width:79%}
-.usr_msg_brd{overflow-y:scroll;margin-left:1%}
+.usr_msg_brd{overflow-y:scroll;margin-left:1%;margin-bottom:9px}
 .usr_unfollow_me{color:#eb020a;cursor:pointer;display:none;float:left;width:21%;margin:1%}
 .usr_following{display:none}
 .usr_msg_brd_tab{height:500px}
