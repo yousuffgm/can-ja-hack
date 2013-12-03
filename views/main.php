@@ -130,6 +130,12 @@
 								</div>
 							</div>
 						</div>
+						<div class="usr_msg_brd">
+									
+									<div class="usr_follow_me"> Follow Me</div>
+									<div class="usr_following"> Following</div>
+									<div class="usr_unfollow_me" style="display:none"> Unfollow Me</div>
+						</div>
 						<div class="list">
 							<div id="tabs">
 								<ul>
@@ -168,7 +174,11 @@
 									</p>
 								</div>
 								<div id="tabs-4">
-
+									<div class="usr_msg_brd_tab">
+										<div class="usr_detls">
+											<span class="usr_name">Name</span> is following you...
+										</div>
+									</div>
 								</div>
 								<div id="tabs-5">
 
