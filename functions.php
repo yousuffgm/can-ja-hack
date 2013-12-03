@@ -31,9 +31,14 @@ function loadscripts(){
 function loadstyles(){
 ?>
 	<link rel="stylesheet" type="text/css" href="./static/css/main.css" />
-	<link rel="stylesheet" type="text/css" href="./static/css/themes/smoothness/jquery-ui.min.css" />
-	<link rel="stylesheet" type="text/css" href="./static/css/themes/smoothness/jquery.ui.theme.css" />
+	<link rel="stylesheet" type="text/css" href="./static/css/themes/blitzer/jquery-ui.min.css" />
+	<link rel="stylesheet" type="text/css" href="./static/css/themes/blitzer/jquery.ui.theme.css" />
 	<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+<?php
+}
+function loadfooterscripts(){
+?>
+	<script src="./static/js/template.js"></script>
 <?php
 }
 	
