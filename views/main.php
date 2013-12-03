@@ -176,7 +176,7 @@
 													</div>
 												</div>
 											</section>
-										<p><p> Hugo Chavez passed away  after a two-year battle with cancer. The colorful and controversial socialist Venezuelan president, who once call...</p></p>
+										<p> Hugo Chavez passed away  after a two-year battle with cancer. The colorful and controversial socialist Venezuelan president, who once call...</p>
 									</div>
 						<div id="tabs-2">
 							<div id="search-container">
