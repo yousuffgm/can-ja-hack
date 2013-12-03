@@ -19,6 +19,7 @@
 		?>
 		<script>
 			var auth = 1;
+			var userpage = $username;
 		</script>
 		<?php
 		}
@@ -26,7 +27,7 @@
 		?>
 		<script>
 			var auth = 0;
-
+			var userpage = "admin;
 		</script>
 		<?php
 		}
