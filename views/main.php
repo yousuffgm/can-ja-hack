@@ -187,7 +187,7 @@
 													</div>
 													<div>
 														<p>
-															<a href="#">Binay</a> add this to his favourites - 55 Secs ago
+															<a href="#">Binay</a> add this to his favourites - 55 secs ago
 														</p>
 													</div>
 												</div>
@@ -213,7 +213,7 @@
 													</div>
 													<div>
 														<p>
-															<a href="#">Manasa</a> add this to her favourites - 1 min 35 Secs ago
+															<a href="#">Manasa</a> add this to her favourites - 1 min 35 secs ago
 														</p>
 													</div>
 												</div>
@@ -239,7 +239,7 @@
 													</div>
 													<div>
 														<p>
-															<a href="#">Bob</a> add this to his favourites - 4 mins 3 Secs ago
+															<a href="#">Bob</a> add this to his favourites - 4 mins 3 secs ago
 														</p>
 													</div>
 												</div>
