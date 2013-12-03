@@ -32,6 +32,12 @@ border-width:0;
 .on {background: none repeat scroll 0 0 #EEEEEE}
 #tabs-1 {overflow:hidden}
 #tabs-1 > section{width:25%;float:left}
+.usr_follow_me, .usr_following{    border: 1px solid #EB020A;border-radius: 6px;color: #EB020A;float: left;padding: 0.7%;cursor:pointer;}
+.usr_detls{float: left;width:79%;}
+.usr_msg_brd{overflow-y:scroll;margin-left:1%;}
+.usr_unfollow_me{color: #EB020A;cursor: pointer;display: none;float: left;width: 21%;margin:1%;}
+.usr_following{display:none;}
+.usr_msg_brd_tab{height:500px;}
 /* Top-Wrapper
 ----------------------------------------------- */
 #top-wrapper {
