@@ -24,6 +24,14 @@ text-decoration:underline;
 a img {
 border-width:0;
 }
+/* ticker CSS*/
+.nwPlyngLoc li{float: left !important;text-align: center;width: 30% !important;padding:7% 10% 10% !important;}
+.nwPlyngLoc{height: 50px !important;overflow:hidden !important;}
+.nwPlyngLcl{background:url("./media/iconmonstr-home-4-icon-24.png") no-repeat scroll 44px 16px rgba(0, 0, 0, 0)}
+.nwPlyngwrd{background:url("./media/iconmonstr-globe-icon-24.png") no-repeat scroll 45px 18px rgba(0, 0, 0, 0)}
+.on {background: none repeat scroll 0 0 #EEEEEE}
+#tabs-1 {overflow:hidden}
+#tabs-1 > section{width:25%;float:left}
 /* Top-Wrapper
 ----------------------------------------------- */
 #top-wrapper {
@@ -225,7 +233,7 @@ overflow: hidden;     /* fix for long non-text content breaking IE sidebar float
 .crosscol .widget {padding:15px 20px;text-align:left; border-bottom:1px solid #e9e9e9;margin:0 0 5px}
 #main-wrapper {
 border:1px solid #e9e9e9;
-width: 76%;
+width: 100%;
 float: right;
 word-wrap: break-word; /* fix for long text breaking sidebar float in IE */
 overflow: hidden;     /* fix for long non-text content breaking IE sidebar float */
@@ -234,7 +242,9 @@ overflow: hidden;     /* fix for long non-text content breaking IE sidebar float
 width: 22.5%;
 float: left;
 word-wrap: break-word; /* fix for long text breaking sidebar float in IE */
-overflow: hidden;      /* fix for long non-text content breaking IE sidebar float */
+overflow: hidden; 
+display: none;
+    /* fix for long non-text content breaking IE sidebar float */
 }
 #sidebar2-wrapper {
 width: 25%;
@@ -620,11 +630,11 @@ text-transform:none;
 padding:0 auto;
 }
 .sidebar2 .PopularPosts ul {
-margin:0;padding:0;
+margin:0;padding:0;height:500px;overflow-y:scroll;
 }
 .sidebar2 .PopularPosts ul li {
 margin:0;
-padding:15px 20px;
+padding:22px;
 text-indent:0px;
 line-height:1.3em;
 list-style:none;
@@ -642,7 +652,7 @@ color:#B80314;
 transition: all 0.4s ease-out;
 }
 .sidebar2 .PopularPosts .item-content { margin:0; padding:0;}
-.sidebar2 .PopularPosts .item-title {font-size:13px;font-weight:normal;text-decoration:none;text-transform:uppercase}
+.sidebar2 .PopularPosts .item-title {font-size:13px;font-weight:normal;text-decoration:none}
 .sidebar2 .PopularPosts .item-snippet {font-size:12px;padding:0;margin:2px 0 0;line-height:1.4em;color:#888;}
 .sidebar2 .PopularPosts img {background:#fff;border:1px solid #ddd;padding:4px}
 /* Sidebar2 Label Cloud
@@ -937,10 +947,6 @@ h2.date-header {margin:2px 0 10px;}
 	height:auto;
 	border:1px solid grey;
 }
-.header{
-	width:100%;
-	height:50px;
-}
 .auth-link{
 	float:right;
 	text-align: right;
@@ -978,4 +984,6 @@ h2.date-header {margin:2px 0 10px;}
     margin-left: 2%;
     width: 73%;
 }
+.nwPlyngLoc{cursor:pointer}
+.nwPlyngLoc .on{cursor:default}
 
