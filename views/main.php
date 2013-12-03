@@ -390,13 +390,13 @@
 							</ul>
 							<div class="widget-content lcl-popular-posts">
 								<ul>
-									<li class="myvidpg-nwplying">
+								<li class="myvidpg-nwplying">
 										<div class="item-content">
 											<div class="item-thumbnail">
-												<a href="" target="_blank"> <img alt="" border="0" height="72" src="./static/img/BlackBerry+10(1).jpg" width="72"> </a>
+												<a href="" target="_blank"> <img alt="" border="0" height="60" src="http://pthumbnails.5min.com/10360691/518034510_c.jpg" width="72"> </a>
 											</div>
 											<div class="item-title">
-												<a href="">What Matters for BlackBerry is What Matters to Users</a>
+												<a href="">The next best thing in Package Delivery?</a>
 											</div>
 											<embed width="300" height="250" style="display:none" src="http://embed.5min.com/517750342/&amp;sid=577&amp;autoStart=true">
 											<!--<div class="item-snippet">
@@ -408,10 +408,40 @@
 									<li class="myvidpg-nwplying">
 										<div class="item-content">
 											<div class="item-thumbnail">
-												<a href="" target="_blank"> <img alt="" border="0" height="72" src="./static/img/Twitter(1).jpg" width="72"> </a>
+												<a href="" target="_blank"> <img alt="" border="0" height="60" src="http://pthumbnails.5min.com/10360669/518033419_c.jpg" width="72"> </a>
 											</div>
 											<div class="item-title">
-												<a href="">Hugo Chavez Dies and the Twitter Town Square Reacts</a>
+												<a href="">Questions about "Fast and Furious 7" raised after Paul Walker Tragedy</a>
+											</div>
+											<embed width="300" height="250" style="display:none" src="http://embed.5min.com/517750342/&amp;sid=577&amp;autoStart=true">
+											<!--<div class="item-snippet">
+											Hugo Chavez passed away  after a two-year battle with cancer. The colorful and controversial socialist Venezuelan president, who once call...
+											</div>-->
+										</div>
+										<div style="clear: both;"></div>
+									</li>
+									<li class="myvidpg-nwplying">
+										<div class="item-content">
+											<div class="item-thumbnail">
+												<a href="" target="_blank"> <img alt="" border="0" height="60" src="http://pthumbnails.5min.com/10360686/518034254_c.jpg" width="72"> </a>
+											</div>
+											<div class="item-title">
+												<a href="">Fast and Furious 7 Producer: Movie will have to wait.. Its time to Grieve </a>
+											</div>
+											<embed width="300" height="250" style="display:none" src="http://embed.5min.com/517750342/&amp;sid=577&amp;autoStart=true">
+											<!--<div class="item-snippet">
+											Hugo Chavez passed away  after a two-year battle with cancer. The colorful and controversial socialist Venezuelan president, who once call...
+											</div>-->
+										</div>
+										<div style="clear: both;"></div>
+									</li>
+									<li class="myvidpg-nwplying">
+										<div class="item-content">
+											<div class="item-thumbnail">
+												<a href="" target="_blank"> <img alt="" border="0" height="60" src="http://pthumbnails.5min.com/10358581/517929015_36.jpg" width="72"> </a>
+											</div>
+											<div class="item-title">
+												<a href="">Porshe World Endurance Champianship GT: Plenty of Good news</a>
 											</div>
 											<embed width="300" height="250" style="display:none" src="http://embed.5min.com/517750342/&amp;sid=577&amp;autoStart=true">
 											<!--<div class="item-snippet">
@@ -430,10 +460,10 @@
 									<li class="myvidpg-nwplying">
 										<div class="item-content">
 											<div class="item-thumbnail">
-												<a href="" target="_blank"> <img alt="" border="0" height="72" src="./static/img/BlackBerry+10(1).jpg" width="72"> </a>
+												<a href="" target="_blank"> <img alt="" border="0" height="60" src="http://pthumbnails.5min.com/10346419/517320903_c.jpg" width="72"> </a>
 											</div>
 											<div class="item-title">
-												<a href="">What Matters for BlackBerry is What Matters to Users What Matters to Users</a>
+												<a href="">Porshe GT3 at the 24th Nurburing</a>
 											</div>
 											<embed width="300" height="250" style="display:none" src="http://embed.5min.com/517750342/&amp;sid=577&amp;autoStart=true">
 											<!--<div class="item-snippet">
@@ -445,10 +475,40 @@
 									<li class="myvidpg-nwplying">
 										<div class="item-content">
 											<div class="item-thumbnail">
-												<a href="" target="_blank"> <img alt="" border="0" height="72" src="./static/img/Twitter(1).jpg" width="72"> </a>
+												<a href="" target="_blank"> <img alt="" border="0" height="60" src="http://pthumbnails.5min.com/10344363/517218144_c.jpg" width="72"> </a>
 											</div>
 											<div class="item-title">
-												<a href="">Hugo Chavez Dies and the Twitter Town Square Reacts What Matters to Users</a>
+												<a href="">Questions about "Fast and Furious 7" raised after Paul Walker Tragedy</a>
+											</div>
+											<embed width="300" height="250" style="display:none" src="http://embed.5min.com/517750342/&amp;sid=577&amp;autoStart=true">
+											<!--<div class="item-snippet">
+											Hugo Chavez passed away  after a two-year battle with cancer. The colorful and controversial socialist Venezuelan president, who once call...
+											</div>-->
+										</div>
+										<div style="clear: both;"></div>
+									</li>
+									<li class="myvidpg-nwplying">
+										<div class="item-content">
+											<div class="item-thumbnail">
+												<a href="" target="_blank"> <img alt="" border="0" height="60" src="http://pthumbnails.5min.com/10354488/517724374_c.jpg" width="72"> </a>
+											</div>
+											<div class="item-title">
+												<a href="">Opel Astra's 24 hours speed endurance world record attemt </a>
+											</div>
+											<embed width="300" height="250" style="display:none" src="http://embed.5min.com/517750342/&amp;sid=577&amp;autoStart=true">
+											<!--<div class="item-snippet">
+											Hugo Chavez passed away  after a two-year battle with cancer. The colorful and controversial socialist Venezuelan president, who once call...
+											</div>-->
+										</div>
+										<div style="clear: both;"></div>
+									</li>
+									<li class="myvidpg-nwplying">
+										<div class="item-content">
+											<div class="item-thumbnail">
+												<a href="" target="_blank"> <img alt="" border="0" height="60" src="http://pthumbnails.5min.com/10350839/517541939_3.jpg" width="72"> </a>
+											</div>
+											<div class="item-title">
+												<a href="">Porshe World Endurance Champianship GT: Plenty of Good news</a>
 											</div>
 											<embed width="300" height="250" style="display:none" src="http://embed.5min.com/517750342/&amp;sid=577&amp;autoStart=true">
 											<!--<div class="item-snippet">
