@@ -27,7 +27,7 @@
 		?>
 		<script>
 			var auth = 0;
-			var userpage = "admin;
+			var userpage = "admin";
 		</script>
 		<?php
 		}
