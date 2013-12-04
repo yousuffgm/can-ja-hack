@@ -4,7 +4,7 @@ RewriteEngine On
 RewriteBase /~yousuffqa/
 
 RewriteRule ^$ index.php?a=main [L,QSA]
-RewriteRule ^user/(.*)$ index.php?a=main [L,QSA]
+RewriteRule ^user/$ index.php?a=user [L,QSA]
 
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
