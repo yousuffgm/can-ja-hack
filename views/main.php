@@ -9,6 +9,7 @@
 <?php
 
 
+<<<<<<< HEAD
 
 if(is_loggedin()){
 	?>
@@ -21,6 +22,67 @@ else{
 	?>
 	<script>
 		var auth = 0;
+=======
+		if(is_loggedin()){
+		?>
+		<script>
+			var auth = 1;
+			var userpage = "<?php echo $username; ?>";
+		</script>
+		<?php
+		}
+		else{
+		?>
+		<script>
+			var auth = 0;
+			var userpage = "admin;
+		</script>
+		<?php
+		}
+		
+		?>
+		<script>
+		function setPlayer(e){
+			//console.log(e);
+		}
+		function play(id){
+ 
+		 j = document.createElement("script");
+		 j.type = "text/javascript";
+		 j.src = 'http://pshared.5min.com/Scripts/PlayerSeed.js?sid=281&width=650&height=500&playList='+id+'&autoStart=true&onVideoDataLoaded=setPlayer';
+		 div = document.getElementById("video-container");
+		 $(div).css({"width":"720px","height":"500px"})
+		 div.innerHTML = "";
+		 div.appendChild(j);
+		 }
+		 
+		 function playlist(id){
+ 			$.getJSON('http://169.254.11.15/~yousuffqa/ajax.php?action=add_playlist&id='+id,function(json){
+ 				//console.log(json);
+ 			});
+		 }
+		function fav(id,channel){
+			channel = $.trim(channel);
+			$.getJSON('http://169.254.11.15/~yousuffqa/ajax.php?action=add_fav&channel='+channel+'&id='+id,function(json){
+				//console.log(json);
+			});
+			 
+		}
+		function search_submit(){
+			var q = $("input[name^='query']").val();
+			var str = encodeURIComponent(q);
+			$.getJSON("http://api.5min.com/search/videos.JSON?q="+str,function(json){
+				$div = "";
+				for(i=0;i<json.items.length;i++){
+					var $id = json.items[i].id;
+					var $channel = json.items[i].channel;
+					$div = $div + '<div class="item" video-id="'+$id+'"video-tag="'+$channel+'" style="float:left;margin:10px;width:100px;"><img style="float:left" src='+json.items[i].image+' width="100px" height="100px" onclick="play('+json.items[i].id+')"/><div class="fav-icons" style="float:left;"><i class="fa fa-heart" onclick="fav('+$id+',\''+$channel+'\')"></i><i class="fa fa-caret-square-o-right" onclick="playlist('+$id+')"></i><i class="fa fa-eye"></i></div></div>';
+				}
+				$div = $div + '<div class="clear"></div>';
+				$("#search-results").empty();
+				$("#search-results").append($div);
+			});
+>>>>>>> parent of ad7bb1a... l7
 	
 	</script>
 	<?php
