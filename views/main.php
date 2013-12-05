@@ -55,7 +55,7 @@
 		 }
 		function fav(id,channel){
 			channel = $.trim(channel);
-			$.getJSON('http://169.254.11.15/~yousuffqa/ajax.php?action=add_fav&channel='+channel+'&id='+id,function(json){
+			$.getJSON('http://my.on.aol.com/~yousuffqa/ajax.php?action=add_fav&channel='+channel+'&id='+id,function(json){
 				//console.log(json);
 			});
 			 
