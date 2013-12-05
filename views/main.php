@@ -49,7 +49,7 @@
 		 }
 		 
 		 function playlist(id){
- 			$.getJSON('http://169.254.11.15/~yousuffqa/ajax.php?action=add_playlist&id='+id,function(json){
+ 			$.getJSON('http://my.on.aol.com/~yousuffqa/ajax.php?action=add_playlist&id='+id,function(json){
  				//console.log(json);
  			});
 		 }
@@ -260,7 +260,7 @@
 		   				   search_submit();
 						   
 						   function get_playlist(){
-							   $.getJSON("http://169.254.11.15/~yousuffqa/ajax.php?action=get_playlist&userpage="+userpage, function( data ) {
+							   $.getJSON("http://my.on.aol.com/~yousuffqa/ajax.php?action=get_playlist&userpage="+userpage, function( data ) {
 								   var $vid = data.videos;
 								   if(!$vid){return;}
 								   play($vid);
@@ -282,7 +282,7 @@
 						   get_playlist();
 						   function refresh_fav(){
 						   
-						   $.get("http://169.254.11.15/~yousuffqa/ajax.php?action=get_fav&userpage="+userpage, function( data ) {
+						   $.get("http://my.on.aol.com/~yousuffqa/ajax.php?action=get_fav&userpage="+userpage, function( data ) {
 		   				     $( "#tabs-1" ).html( data );
 							
 							 $(".nav-items").each(function(i,v){
