@@ -31,11 +31,11 @@
 					
 					}
 					//console.log($.cookie('token_a'));
-					$.cookie("token_a", response.data.token.a);
+					//$.cookie("token_a", response.data.token.a);
 					
-					if(auth==0){
-						location.reload();
-					}
+					//if(auth==0){
+						//location.reload();
+						//}
 					
 					$(".authd").css("display","inline");
 					$(".unauthd").css("display","none");
@@ -51,6 +51,7 @@
 					$authGreeting.css("display","none");
 				
 				}			
+				return false;
 			}
 		});
 	

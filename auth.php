@@ -25,6 +25,9 @@ function validate(){
 	global $username,$isloggedin;
 	if(isset($_COOKIE['token_a'])) {
 		$token = $_COOKIE['token_a'];
+		//var_dump(	getBaseUrl());
+		//var_dump(	$token);
+		
 		$valUrl = build_url('http://api.screenname.aol.com/auth/getInternalInfo',array(
 	                        "devId"=>'ao1IOdsOl_BEZn-6',
 	                        "f"=>"json",
@@ -32,8 +35,10 @@ function validate(){
 	                        "referer"=>	getBaseUrl(),
 	                        "a"=>$token)
 	                   );
+		//var_dump($valUrl);
 		
 		$response = send_request('GET', $valUrl);
+		//var_dump($response);
 		$decoded_response = json_decode($response,TRUE);
 		if($decoded_response['response']['statusCode'] === 200) {
 			$attributes_returned = $decoded_response['response']['data']['userData']['attributes'];
